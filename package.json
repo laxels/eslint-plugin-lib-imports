@@ -1,4 +1,25 @@
 {
   "name": "eslint-plugin-lib-imports",
-  "packageManager": "yarn@4.0.2"
+  "version": "0.0.1",
+  "description": "ESLint plugin for enforce-foo-bar rule.",
+  "main": "plugin.js",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "test": "node enforce-lib-imports.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  },
+  "packageManager": "yarn@4.0.2",
+  "volta": {
+    "node": "20.10.0",
+    "yarn": "4.0.2"
+  }
 }
